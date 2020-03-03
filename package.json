@@ -1,0 +1,9 @@
+{
+  "name": "electron-react-webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "A minimal template for creating electron applications using the react framework along with webpack.",
+  "main": "./src/main/index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}
