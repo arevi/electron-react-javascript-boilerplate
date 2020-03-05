@@ -9,3 +9,28 @@ This template is minimal, by design, reducing the overhead required for customiz
 | Command       | Effect                                                                   |
 | ------------- | ------------------------------------------------------------------------ |
 | `npm install` | Install all of the required node modules and depedencies for the project |
+
+## Development Commands
+
+The following commands with allow for an intuitive development environment with the application hot reloading on any frontend application changes.
+**The application will not hot reload on electron changes.**
+**The react-dev command must be running prior to electron-dev being ran.**
+
+| Command        | Effect                                                                   |
+| -------------- | ------------------------------------------------------------------------ |
+| `webpack-dev`  | Compiles a development version of all applicable files (main & renderer) |
+| `react-dev`    | Launches a live webpack development server on port 3000                  |
+| `electron-dev` | Launches electron and connects to port 3000                              |
+
+> While in `Development` mode Chrome Developer Tools can be opened via Ctrl+Shift+I.
+
+## Production Commands
+
+The following commands with compile the application for win32 platform machines.
+
+| Command        | Effect                                                                  |
+| -------------- | ----------------------------------------------------------------------- |
+| `webpack-prod` | Compiles a production version of all applicable files (main & renderer) |
+| `build-win`    | Compiles the production files to a Windows executable                   |
+
+> While in `Production` mode Chrome Developer Tools is disabled.

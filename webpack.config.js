@@ -27,16 +27,24 @@ module.exports = [
           exclude: /node_modules/,
           use: ['babel-loader']
         },
-        { test: /\.css$/, use: ['style-loader', 'css-loader'] }
+        { test: /\.css$/, use: ['style-loader', 'css-loader'] },
+        {
+          test: /\.(png|svg|jpg|gif)$/,
+          use: ['file-loader']
+        }
       ]
     },
     resolve: {
-      extensions: ['*', '.js', '.jsx', '.json']
+      extensions: ['*', '.js', '.jsx', '.json', '.css', '.svg']
     },
     output: {
       path: __dirname + '/build',
       publicPath: './',
       filename: 'bundle.js'
+    },
+    devServer: {
+      contentBase: __dirname + '/build/',
+      compress: true
     },
     plugins: [
       new HtmlWebPackPlugin({
