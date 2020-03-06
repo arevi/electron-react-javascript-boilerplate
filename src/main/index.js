@@ -1,7 +1,7 @@
 import { app, BrowserWindow } from 'electron';
 
 let mainWindow = null;
-const isDev = process.env.ELECTRON_ENV == 'dev' ? true : false;
+const isDev = process.env.ELECTRON_ENV == 'dev';
 
 //Render main window w/ configuration settings
 const renderWindow = async () => {
