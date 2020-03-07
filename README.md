@@ -23,6 +23,7 @@ The following commands with allow for an intuitive development environment with 
 | `electron-dev` | Launches electron and connects to port 3000                              |
 
 > The `react-dev` command must be ran prior to `electron-dev` to connect to the local server.
+
 > While in `Development` mode Chrome Developer Tools can be opened via Ctrl+Shift+I.
 
 ## Production Commands
