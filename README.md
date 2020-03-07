@@ -16,14 +16,13 @@ The following commands with allow for an intuitive development environment with 
 
 **The application will not hot reload on electron changes.**
 
-**The react-dev command must be running prior to electron-dev being ran.**
-
 | Command        | Effect                                                                   |
 | -------------- | ------------------------------------------------------------------------ |
 | `webpack-dev`  | Compiles a development version of all applicable files (main & renderer) |
 | `react-dev`    | Launches a live webpack development server on port 3000                  |
 | `electron-dev` | Launches electron and connects to port 3000                              |
 
+> The `react-dev` command must be ran prior to `electron-dev` to connect to the local server.
 > While in `Development` mode Chrome Developer Tools can be opened via Ctrl+Shift+I.
 
 ## Production Commands
