@@ -13,7 +13,9 @@ This template is minimal, by design, reducing the overhead required for customiz
 ## Development Commands
 
 The following commands with allow for an intuitive development environment with the application hot reloading on any frontend application changes.
+
 **The application will not hot reload on electron changes.**
+
 **The react-dev command must be running prior to electron-dev being ran.**
 
 | Command        | Effect                                                                   |
