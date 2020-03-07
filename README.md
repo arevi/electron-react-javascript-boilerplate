@@ -1,6 +1,6 @@
 # Electron-React-Webpack-Boilerplate - Documentation
 
-![Screenshot](https://i.imgur.com/U1ImLAI.png "Screenshot")
+![Screenshot](https://i.imgur.com/1oCcBcH.png "Screenshot")
 
 This template serves as the basis for creating extensible electron applications using the React frontend framework, all transpiled by webpack allowing for the latest ECMAScript standards to be used.
 
