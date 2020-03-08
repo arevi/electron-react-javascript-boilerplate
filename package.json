@@ -1,7 +1,7 @@
 {
-  "name": "electron-react-webpack-boilerplate",
+  "name": "electron-react-javascript-boilerplate",
   "version": "0.0.1",
-  "description": "A minimal template for creating electron applications using the react framework along with webpack.",
+  "description": "A minimal template for creating electron applications using the react framework with JavaScript.",
   "main": "./src/main/index.js",
   "scripts": {
     "webpack-dev": "webpack --mode development",
@@ -14,15 +14,15 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arevi/electron-react-webpack-boilerplate"
+    "url": "https://github.com/arevi/electron-react-javascript-boilerplate"
   },
   "build": {
-    "appId": "com.arevi.electron-react-webpack-boilerplate",
+    "appId": "com.arevi.electron-react-javascript-boilerplate",
     "files": [
       "build/*",
       "node_modules/**/*"
     ],
-    "productName": "Electron React Webpack Boilerplate"
+    "productName": "Electron React JavaScript Boilerplate"
   },
   "dependencies": {
     "react": "^16.13.0",
