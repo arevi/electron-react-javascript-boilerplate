@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+  - node_modules
+jobs:
+  include:
+    - stage: Test
+      script:
+        - npm run webpack-dev
+        - npm run webpack-prod

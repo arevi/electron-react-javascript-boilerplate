@@ -10,7 +10,7 @@
     "webpack-prod": "webpack --mode production",
     "build-win": "electron-builder build --win -c.extraMetadata.main=./build/app.js --publish never"
   },
-  "author": "Arevi",
+  "author": "Armin Dizdarevic",
   "license": "ISC",
   "repository": {
     "type": "git",
