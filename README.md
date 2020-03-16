@@ -10,7 +10,7 @@ This template is minimal, by design, reducing the overhead required for customiz
 
 | Command       | Effect                                                                   |
 | ------------- | ------------------------------------------------------------------------ |
-| `npm install` | Install all of the required node modules and depedencies for the project |
+| `npm install` | Install all of the required node modules and dependencies for the project |
 
 ## Development Commands
 
