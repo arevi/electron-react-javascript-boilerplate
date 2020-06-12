@@ -38,7 +38,7 @@
     "electron": "^9.0.3",
     "electron-builder": "^22.7.0",
     "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.2.0",
+    "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
